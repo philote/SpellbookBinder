@@ -5,4 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!-- preference file keys -->
+    <string name="data_preference_file_key">com.josephhopson.spellbookbinder.models.DATA</string>
+
 </resources>

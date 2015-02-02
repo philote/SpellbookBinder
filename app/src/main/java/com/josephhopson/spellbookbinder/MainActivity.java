@@ -13,7 +13,7 @@ import android.os.Build;
 
 
 public class MainActivity extends ActionBarActivity {
-
+//https://api.myjson.com/bins/vjlr
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
