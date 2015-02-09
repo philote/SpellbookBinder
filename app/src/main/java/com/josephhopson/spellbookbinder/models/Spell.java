@@ -3,12 +3,10 @@ package com.josephhopson.spellbookbinder.models;
 import java.util.ArrayList;
 import java.util.Map;
 
-import io.realm.RealmObject;
-
 /**
  * Created by joseph on 1/19/2015.
  */
-public class Spell extends RealmObject {
+public class Spell {
     String name;
     ArrayList<String> types;
     ArrayList<String> subTypes;
