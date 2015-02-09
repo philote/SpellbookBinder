@@ -23,6 +23,16 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
+
+        /*
+        // Exemplary use that can be used in every place where Context is available
+        Spell spell = new Spell();
+        spell.setId(5); // if spell with id 5 already exists in DB, it will be edited instead of created
+        spell.setName("My spell");
+        spell.setCastingCost(1);
+        spell.setDescription("This is my spell. I can put in it anything I wish.");
+        SpellRepository.insertOrUpdate(context, spell);
+         */
     }
 
     @Override

@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by joseph on 1/19/2015.
  */
-public class Spell {
+public class SpellModel {
     String name;
     ArrayList<String> types;
     ArrayList<String> subTypes;
