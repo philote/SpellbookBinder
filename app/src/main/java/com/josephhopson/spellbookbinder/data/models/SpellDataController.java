@@ -1,4 +1,4 @@
-package com.josephhopson.spellbookbinder.models;
+package com.josephhopson.spellbookbinder.data.models;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,7 +13,7 @@ public class SpellDataController {
     private Context mContext;
     SharedPreferences dataSharedPref;
 
-    public static final String SPELL_LIST_VERSION_KEY = "com.josephhopson.spellbookbinder.models.SPELL_LIST_VERSION_KEY";
+    public static final String SPELL_LIST_VERSION_KEY = "com.josephhopson.spellbookbinder.data.models.SPELL_LIST_VERSION_KEY";
 
     public SpellDataController(Context mContext) {
         this.mContext = mContext;

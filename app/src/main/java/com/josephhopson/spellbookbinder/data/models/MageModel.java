@@ -1,4 +1,4 @@
-package com.josephhopson.spellbookbinder.models;
+package com.josephhopson.spellbookbinder.data.models;
 
 import java.util.ArrayList;
 
