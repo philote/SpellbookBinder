@@ -1,4 +1,4 @@
-package com.josephhopson.spellbookbinder.presentation;
+package com.josephhopson.spellbookbinder.presentation.activites;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.os.Build;
 
 import com.josephhopson.spellbookbinder.R;
+import com.josephhopson.spellbookbinder.presentation.fragments.PlaceholderFragment;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -25,16 +26,6 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
-
-        /*
-        // Exemplary use that can be used in every place where Context is available
-        Spell spell = new Spell();
-        spell.setId(5); // if spell with id 5 already exists in DB, it will be edited instead of created
-        spell.setName("My spell");
-        spell.setCastingCost(1);
-        spell.setDescription("This is my spell. I can put in it anything I wish.");
-        SpellRepository.insertOrUpdate(context, spell);
-         */
     }
 
     @Override
@@ -57,21 +48,5 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
-
-        public PlaceholderFragment() {
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            return rootView;
-        }
     }
 }
